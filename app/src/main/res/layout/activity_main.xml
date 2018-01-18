@@ -75,13 +75,32 @@
         android:text="search URL will appear once 'search' is clicked"/>
 
     <!--TODO (18) Add a ScrollView-->
+    <!--COMPLETE-->
     <!--TODO (19) Set the width to match_parent and the height to wrap_content-->
+    <!--COMPLETE-->
     <!--TODO (20) Set the top margin to 16dp-->
+    <!--COMPLETE-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
 
         <!--TODO (21) Within the ScrollView, add a TextView-->
+        <!--COMPLETE-->
         <!--TODO (22) Give the TextView an id of @+id/tv_github_search_results_json-->
+        <!--COMPLETE-->
         <!--TODO (23) Set the text size to 18sp-->
+        <!--COMPLETE-->
         <!--TODO (24) Set the height and width to wrap_content-->
+        <!--COMPLETE-->
         <!--TODO (25) Set the text to something that tells the user to make a search-->
+        <!--COMPLETE-->
+        <TextView
+            android:id="@+id/tv_github_search_results_json"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Enter a query"/>
+    </ScrollView>
 
 </LinearLayout>
